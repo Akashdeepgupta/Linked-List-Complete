@@ -1,19 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-struct node
+struct node // struct for linear linked list
 {
     int data;
     struct node *next;
 }*first = NULL,*second = NULL,*third = NULL;
 
-struct cnode
+struct cnode  // struct for circular Linked List
 {
     int data;
     struct cnode *next;
 }*head =NULL;
 
-struct dnode
+struct dnode  // struct for doubly Llinked List
 {
     struct dnode *prev;
     int data;
